@@ -1,0 +1,17 @@
+{
+  "name": "tiktok-live-fishing-chibi",
+  "version": "1.0.0",
+  "description": "Backend Node.js bridge for Thuyền Câu Tu Tiên Chibi on TikTok Live",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5",
+    "tiktok-live-connector": "^1.2.15"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
